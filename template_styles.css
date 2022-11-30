@@ -119,7 +119,7 @@ input[type=range] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  width: 100%; /* Указание параметра ширины требуется для Firefox. */
+  width: 100%; /* РЈРєР°Р·Р°РЅРёРµ РїР°СЂР°РјРµС‚СЂР° С€РёСЂРёРЅС‹ С‚СЂРµР±СѓРµС‚СЃСЏ РґР»СЏ Firefox. */
   padding: 0;
   border: none;
   background: transparent;
@@ -130,18 +130,18 @@ input[type=range]::-webkit-slider-thumb {
 }
  
 input[type=range]:focus {
-  outline: none; /* Убирает голубую границу у элемента. Хотя, возможно, и стоит создавать некоторое оформления для состояния фокуса в целях обеспечения доступности. */
+  outline: none; /* РЈР±РёСЂР°РµС‚ РіРѕР»СѓР±СѓСЋ РіСЂР°РЅРёС†Сѓ Сѓ СЌР»РµРјРµРЅС‚Р°. РҐРѕС‚СЏ, РІРѕР·РјРѕР¶РЅРѕ, Рё СЃС‚РѕРёС‚ СЃРѕР·РґР°РІР°С‚СЊ РЅРµРєРѕС‚РѕСЂРѕРµ РѕС„РѕСЂРјР»РµРЅРёСЏ РґР»СЏ СЃРѕСЃС‚РѕСЏРЅРёСЏ С„РѕРєСѓСЃР° РІ С†РµР»СЏС… РѕР±РµСЃРїРµС‡РµРЅРёСЏ РґРѕСЃС‚СѓРїРЅРѕСЃС‚Рё. */
 }
  
 input[type=range]::-ms-track {
   width: 100%;
   cursor: pointer;
-  background: transparent; /* Скрывает слайдер, чтобы можно было добавить собственные стили. */
+  background: transparent; /* РЎРєСЂС‹РІР°РµС‚ СЃР»Р°Р№РґРµСЂ, С‡С‚РѕР±С‹ РјРѕР¶РЅРѕ Р±С‹Р»Рѕ РґРѕР±Р°РІРёС‚СЊ СЃРѕР±СЃС‚РІРµРЅРЅС‹Рµ СЃС‚РёР»Рё. */
   border-color: transparent;
   color: transparent;
 }
 
-/* Специальные правила для браузеров на движках WebKit/Blink */
+/* РЎРїРµС†РёР°Р»СЊРЅС‹Рµ РїСЂР°РІРёР»Р° РґР»СЏ Р±СЂР°СѓР·РµСЂРѕРІ РЅР° РґРІРёР¶РєР°С… WebKit/Blink */
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   height: 16px;
@@ -154,7 +154,7 @@ input[type=range]::-webkit-slider-thumb {
   cursor: pointer;
 }
  
-/* Тоже самое для Firefox */
+/* РўРѕР¶Рµ СЃР°РјРѕРµ РґР»СЏ Firefox */
 input[type=range]::-moz-range-thumb {
   height: 16px;
   width: 16px;
@@ -165,7 +165,7 @@ input[type=range]::-moz-range-thumb {
   cursor: pointer;
 }
  
-/* Тоже самое для IE */
+/* РўРѕР¶Рµ СЃР°РјРѕРµ РґР»СЏ IE */
 input[type=range]::-ms-thumb {
   height: 16px;
   width: 16px;
@@ -176,7 +176,7 @@ input[type=range]::-ms-thumb {
   border: 0;
 }
 
-/* Ползунок */
+/* РџРѕР»Р·СѓРЅРѕРє */
 input[type=range]::-webkit-slider-runnable-track {
   width: 100%;
   height: 2px;
@@ -240,7 +240,7 @@ input[type=range]:focus::-ms-fill-upper {
   bottom: 0;
   left: 0;
 }
-/* Ползунок */
+/* РџРѕР»Р·СѓРЅРѕРє */
 
 .wrapper {
   position: relative;
@@ -1177,7 +1177,7 @@ header {
 
 .conditions_list-item li::before,
 .conditions_block-item li::before {
-  content:  "— ";
+  content:  "вЂ” ";
 }
 
 .conditions_more {
@@ -2943,7 +2943,7 @@ footer {
 }
 
 .vacancies_long li::before {
-  content:  "— ";
+  content:  "вЂ” ";
 }
 /* /Vacancies */
 /* FAQ page */
